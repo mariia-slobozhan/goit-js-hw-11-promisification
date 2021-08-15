@@ -22,5 +22,5 @@ const toggleUserState = (allUsers, userName) =>{
 
 }
 
-// toggleUserState(users, 'Mango').then(logger);
-// toggleUserState(users, 'Lux').then(logger);
+toggleUserState(users, 'Mango').then(logger);
+toggleUserState(users, 'Lux').then(logger);
